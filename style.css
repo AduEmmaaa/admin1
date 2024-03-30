@@ -1,31 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Montserrat', sans-serif; */
-
-  
 }
-#shoplist{
-  position:absolute ;
-  border-bottom-left-radius:10px ;
-  border-bottom-right-radius:10px ;
+#shoplist {
+  position: absolute;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   width: 200px;
-  background-color:rgb(245, 243, 243);
+  background-color: rgb(185, 7, 7);
   margin-top: 17px;
   display: none;
 }
-#shoplist li{
-height: 30px;
-padding: 10px;
-display: flex;
-align-items: center;
-padding: 20px;
+#shoplist li {
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
-
 
 #header {
   display: flex;
@@ -34,11 +30,11 @@ padding: 20px;
   padding: 0 30px;
   /* background-color: #e3e6f3; */
   background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.548),
-    rgba(0, 0, 0, 0.082)
-  ),
-  url(images/pexels-karolina-grabowska-5625042.jpg);
+      to bottom,
+      rgba(0, 0, 0, 0.548),
+      rgba(0, 0, 0, 0.082)
+    ),
+    url(images/pexels-karolina-grabowska-5625042.jpg);
   height: 50px;
   width: 100%;
   z-index: 999;
@@ -54,6 +50,7 @@ padding: 20px;
   padding: 0 20px;
   font-size: 16px;
   font-weight: 800;
+  color: #fff;
 }
 
 .list-link {
@@ -101,8 +98,7 @@ padding: 20px;
 }
 
 #hero {
-margin-bottom: 10px;
-
+  margin-bottom: 10px;
 }
 #hero h4 {
   font-size: 16px;
@@ -159,19 +155,16 @@ margin-bottom: 10px;
 }
 #smallbox a {
   text-decoration: none;
-color: #Fff;
-
+  color: #fff;
 }
-
-
 
 #smallbox p {
   background-color: #088178;
   width: fit-content;
   margin: auto;
   margin-top: 5px;
-  padding: 5px 20px;border-radius: 10px;
-  
+  padding: 5px 20px;
+  border-radius: 10px;
 }
 #smallbox {
   margin: 20px;
@@ -190,7 +183,8 @@ color: #Fff;
   padding: 20px;
 }
 
-#featured h1, .topcat {
+#featured h1,
+.topcat {
   font-size: 40px;
   font-weight: 900;
   font-family: sans-serif;
@@ -261,7 +255,6 @@ h4 {
   padding: 50px;
   margin-bottom: 50px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
-
 }
 #discount p {
   color: #ccd7d0;
@@ -318,63 +311,57 @@ h4 {
   align-items: center;
 }
 
-
-@media screen and (max-width:600px) {
-  #header{
-
+@media screen and (max-width: 600px) {
+  #header {
     padding: 0;
     top: 0;
     position: sticky;
-    background-image:url(images/pexels-karolina-grabowska-5625042.jpg);
+    background-image: url(images/pexels-karolina-grabowska-5625042.jpg);
   }
-  #header a{
+  #header a {
     font-weight: 500;
   }
   .list-link li {
-    padding: 0 ;
+    padding: 0;
   }
 
-  #shoplist{
+  #shoplist {
     width: 170px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
   }
-  #shoplist li{
+  #shoplist li {
     padding: 10px;
-    }
-#hero{
-  height: 60vh;
-  padding: 0 5px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-   justify-content: flex-start; 
-   padding-top: 2.5rem;
-}
+  }
+  #hero {
+    height: 60vh;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2.5rem;
+  }
 
-#discount h1{
-  font-weight: 400;
-}
-#discount{
-  padding: 4px;
-}
-#smallbox {
-  margin: 4px;
-  justify-content: space-evenly;
-  
-}
- 
-#smallbox .box {
- margin-bottom: 10px;
- border: 1px solid #088178;
-}
-#featured .itemslist {
-padding: 0;
-justify-content: space-evenly;
-}
-#featured .itemsbox {
-margin: 0;
-}
+  #discount h1 {
+    font-weight: 400;
+  }
+  #discount {
+    padding: 4px;
+  }
+  #smallbox {
+    margin: 4px;
+    justify-content: space-evenly;
+  }
 
-
-
+  #smallbox .box {
+    margin-bottom: 10px;
+    border: 1px solid #088178;
+  }
+  #featured .itemslist {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  #featured .itemsbox {
+    margin: 0;
+  }
 }

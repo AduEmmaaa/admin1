@@ -5,7 +5,8 @@
 }
 #shoplist {
   position: absolute;
-  width: 300px;
+  width: 230px;
+  right: 0;
   margin-top: 17px;
   display: none;
   background-color: rgb(185, 7, 7);

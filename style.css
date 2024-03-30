@@ -328,6 +328,7 @@ h4 {
   #shoplist {
     width: 170px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
   }
   #shoplist li {
     padding: 10px;

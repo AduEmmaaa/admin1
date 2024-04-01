@@ -9,8 +9,9 @@ const register = (req, res) => {
     const Data = JSON.stringify(user);
     console.log(`i have recieved data ${Data}`);
     res.status(200).send(Data);
-  } catch (error) {}
-  res.send("register");
+  } catch (error) {
+    console.error("Error :", error);
+  }
 };
 
 const login = (req, res) => {

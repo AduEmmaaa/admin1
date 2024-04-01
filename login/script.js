@@ -34,12 +34,9 @@ regUserBtn.addEventListener("click", (event) => {
     .then((response) => response.json()) // Parse the response as JSON
     .then((data) => console.log(data)) // Log the response data
     .catch((error) => console.error("Error :", error));
-
-  console.log(Data);
 });
 
 logUser1Btn.addEventListener("click", (event) => {
-  //   container.classList.remove("active");
   event.preventDefault();
   const user = {
     email: email1.value,

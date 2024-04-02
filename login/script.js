@@ -30,7 +30,7 @@ regUserBtn.addEventListener("click", (event) => {
     headers: { "Content-Type": "application/json" },
     body: Data,
   };
-  fetch("http://localhost:3000/register", requestOptions)
+  fetch("https://firstnode-j9ix.onrender.com/register", requestOptions)
     .then((response) => response.json()) // Parse the response as JSON
     .then((data) => console.log(data)) // Log the response data
     .catch((error) => console.error("Error :", error));
